@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14109" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="whP-gf-Uak">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="Stack View standard spacing" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="wQg-tq-qST">
+            <objects>
+                <viewController id="whP-gf-Uak" customClass="CMAViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="uEw-UM-LJ8"/>
+                        <viewControllerLayoutGuide type="bottom" id="Mvr-aV-6Um"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="TpU-gO-2f1">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Ihv-3t-cxZ">
+                                <rect key="frame" x="36" y="120" width="302" height="426"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="LbB-oq-Sul" customClass="CMAQRScanView">
+                                <rect key="frame" x="36.5" y="120.5" width="302" height="426"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </view>
+                            <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacingType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="agu-ec-eKv">
+                                <rect key="frame" x="0.0" y="617" width="375" height="50"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="OfP-Cz-ScI">
+                                        <rect key="frame" x="0.0" y="0.0" width="68.5" height="50"/>
+                                        <state key="normal" title="边框颜色"/>
+                                        <connections>
+                                            <action selector="didPressedButton:" destination="whP-gf-Uak" eventType="touchUpInside" id="MUd-vc-eZ3"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ko2-hB-muh">
+                                        <rect key="frame" x="76.5" y="0.0" width="68.5" height="50"/>
+                                        <state key="normal" title="边框区域"/>
+                                        <connections>
+                                            <action selector="didPressedButton:" destination="whP-gf-Uak" eventType="touchUpInside" id="pZW-mL-hfC"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="olP-Z0-swq">
+                                        <rect key="frame" x="153" y="0.0" width="69" height="50"/>
+                                        <state key="normal" title="边角位置"/>
+                                        <connections>
+                                            <action selector="didPressedButton:" destination="whP-gf-Uak" eventType="touchUpInside" id="6Kb-e2-snH"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Bb0-jD-9Ne">
+                                        <rect key="frame" x="230" y="0.0" width="68.5" height="50"/>
+                                        <state key="normal" title="边角宽度"/>
+                                        <connections>
+                                            <action selector="didPressedButton:" destination="whP-gf-Uak" eventType="touchUpInside" id="jTC-j8-vmK"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uHh-cB-mrE">
+                                        <rect key="frame" x="306.5" y="0.0" width="68.5" height="50"/>
+                                        <state key="normal" title="背景颜色"/>
+                                        <connections>
+                                            <action selector="didPressedButton:" destination="whP-gf-Uak" eventType="touchUpInside" id="DwZ-5T-65S"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="HTS-dr-gic"/>
+                                </constraints>
+                            </stackView>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="Ihv-3t-cxZ" firstAttribute="centerY" secondItem="TpU-gO-2f1" secondAttribute="centerY" id="38C-tZ-9fp"/>
+                            <constraint firstItem="LbB-oq-Sul" firstAttribute="width" secondItem="Ihv-3t-cxZ" secondAttribute="width" id="4IX-ns-x81"/>
+                            <constraint firstItem="Ihv-3t-cxZ" firstAttribute="centerX" secondItem="TpU-gO-2f1" secondAttribute="centerX" id="IJE-p8-wAm"/>
+                            <constraint firstItem="LbB-oq-Sul" firstAttribute="centerX" secondItem="Ihv-3t-cxZ" secondAttribute="centerX" id="Nu6-Wp-9oX"/>
+                            <constraint firstItem="LbB-oq-Sul" firstAttribute="height" secondItem="Ihv-3t-cxZ" secondAttribute="height" id="QSA-c5-swj"/>
+                            <constraint firstItem="Ihv-3t-cxZ" firstAttribute="top" secondItem="uEw-UM-LJ8" secondAttribute="bottom" constant="100" id="caC-gp-rRG"/>
+                            <constraint firstItem="agu-ec-eKv" firstAttribute="leading" secondItem="TpU-gO-2f1" secondAttribute="leading" id="d8B-M1-jJT"/>
+                            <constraint firstAttribute="trailing" secondItem="agu-ec-eKv" secondAttribute="trailing" id="nDK-xi-Q0X"/>
+                            <constraint firstItem="Mvr-aV-6Um" firstAttribute="top" secondItem="agu-ec-eKv" secondAttribute="bottom" id="snd-Og-IPJ"/>
+                            <constraint firstItem="LbB-oq-Sul" firstAttribute="centerY" secondItem="Ihv-3t-cxZ" secondAttribute="centerY" id="ugy-y2-eh6"/>
+                            <constraint firstItem="Ihv-3t-cxZ" firstAttribute="leading" secondItem="TpU-gO-2f1" secondAttribute="leadingMargin" constant="20" id="xt4-RY-XwF"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="cameraPreviewView" destination="Ihv-3t-cxZ" id="5uK-HD-Bjs"/>
+                        <outlet property="scanView" destination="LbB-oq-Sul" id="79i-yX-iW0"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="tc2-Qw-aMS" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="304.80000000000001" y="432.23388305847078"/>
+        </scene>
+    </scenes>
+</document>

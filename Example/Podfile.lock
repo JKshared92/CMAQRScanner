@@ -1,0 +1,23 @@
+PODS:
+  - CMAQRScanner (0.1.0):
+    - MSWeakTimer
+  - MSWeakTimer (1.1.0)
+
+DEPENDENCIES:
+  - CMAQRScanner (from `../`)
+
+SPEC REPOS:
+  https://github.com/CocoaPods/Specs.git:
+    - MSWeakTimer
+
+EXTERNAL SOURCES:
+  CMAQRScanner:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  CMAQRScanner: d3d8deb3e51375e69263a801c6fdac4b780c213f
+  MSWeakTimer: 9426150f933b80ed3acf3f6d228e4b61f0e303c8
+
+PODFILE CHECKSUM: 6bc3faf400c5dd66044bcb8a2590202bf0231507
+
+COCOAPODS: 1.5.0

@@ -1,0 +1,6 @@
+framework module CMAQRScanner {
+  umbrella header "CMAQRScanner-umbrella.h"
+
+  export *
+  module * { export * }
+}

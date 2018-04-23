@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		570CA575208D776200A306CC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 570CA574208D776200A306CC /* Main.storyboard */; };
 		6003F58E195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
 		6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58F195388D20070C39A /* CoreGraphics.framework */; };
 		6003F592195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
@@ -21,7 +22,6 @@
 		6003F5BA195388D20070C39A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6003F5B8195388D20070C39A /* InfoPlist.strings */; };
 		6003F5BC195388D20070C39A /* Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5BB195388D20070C39A /* Tests.m */; };
 		71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */; };
-		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
 		A710CF9C28AA4136239BB9A9 /* Pods_CMAQRScanner_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D06EF3BD69EE47D8954F8206 /* Pods_CMAQRScanner_Example.framework */; };
 		D9F5D319CDBE1A180F0E2F13 /* Pods_CMAQRScanner_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 430BE71D4D1BD99DE1891F3D /* Pods_CMAQRScanner_Tests.framework */; };
 /* End PBXBuildFile section */
@@ -37,8 +37,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		3987A8027A42FB36A81962DF /* CMAQRScanner.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = CMAQRScanner.podspec; path = ../CMAQRScanner.podspec; sourceTree = "<group>"; };
+		3987A8027A42FB36A81962DF /* CMAQRScanner.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = CMAQRScanner.podspec; path = ../CMAQRScanner.podspec; sourceTree = "<group>"; };
 		430BE71D4D1BD99DE1891F3D /* Pods_CMAQRScanner_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CMAQRScanner_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		570CA574208D776200A306CC /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		5BE4B5C12315EBE1826B0D8D /* Pods-CMAQRScanner_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CMAQRScanner_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-CMAQRScanner_Tests/Pods-CMAQRScanner_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* CMAQRScanner_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CMAQRScanner_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -61,10 +62,9 @@
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7E25C14B55B5F538CFCA491F /* Pods-CMAQRScanner_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CMAQRScanner_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-CMAQRScanner_Example/Pods-CMAQRScanner_Example.release.xcconfig"; sourceTree = "<group>"; };
-		81B169F77A321FA03358B19A /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
-		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		81B169F77A321FA03358B19A /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		89523DE273CC01C655E86D4D /* Pods-CMAQRScanner_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CMAQRScanner_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CMAQRScanner_Example/Pods-CMAQRScanner_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		9DCB8E4F4FF77BA352C7A1BC /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		9DCB8E4F4FF77BA352C7A1BC /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		D06EF3BD69EE47D8954F8206 /* Pods_CMAQRScanner_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CMAQRScanner_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		EF916708E2DF2A8C9A930792 /* Pods-CMAQRScanner_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CMAQRScanner_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CMAQRScanner_Tests/Pods-CMAQRScanner_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -134,9 +134,9 @@
 			children = (
 				6003F59C195388D20070C39A /* CMAAppDelegate.h */,
 				6003F59D195388D20070C39A /* CMAAppDelegate.m */,
-				873B8AEA1B1F5CCA007FD442 /* Main.storyboard */,
 				6003F5A5195388D20070C39A /* CMAViewController.h */,
 				6003F5A6195388D20070C39A /* CMAViewController.m */,
+				570CA574208D776200A306CC /* Main.storyboard */,
 				71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */,
 				6003F5A8195388D20070C39A /* Images.xcassets */,
 				6003F594195388D20070C39A /* Supporting Files */,
@@ -247,6 +247,9 @@
 				LastUpgradeCheck = 0720;
 				ORGANIZATIONNAME = comma;
 				TargetAttributes = {
+					6003F589195388D20070C39A = {
+						DevelopmentTeam = L36DXFUT4S;
+					};
 					6003F5AD195388D20070C39A = {
 						TestTargetID = 6003F589195388D20070C39A;
 					};
@@ -276,10 +279,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */,
 				71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */,
 				6003F5A9195388D20070C39A /* Images.xcassets in Resources */,
 				6003F598195388D20070C39A /* InfoPlist.strings in Resources */,
+				570CA575208D776200A306CC /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -302,10 +305,12 @@
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-CMAQRScanner_Example/Pods-CMAQRScanner_Example-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/CMAQRScanner/CMAQRScanner.framework",
+				"${BUILT_PRODUCTS_DIR}/MSWeakTimer/MSWeakTimer.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/CMAQRScanner.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MSWeakTimer.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -485,6 +490,7 @@
 			baseConfigurationReference = 89523DE273CC01C655E86D4D /* Pods-CMAQRScanner_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = L36DXFUT4S;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "CMAQRScanner/CMAQRScanner-Prefix.pch";
 				INFOPLIST_FILE = "CMAQRScanner/CMAQRScanner-Info.plist";
@@ -500,6 +506,7 @@
 			baseConfigurationReference = 7E25C14B55B5F538CFCA491F /* Pods-CMAQRScanner_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = L36DXFUT4S;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "CMAQRScanner/CMAQRScanner-Prefix.pch";
 				INFOPLIST_FILE = "CMAQRScanner/CMAQRScanner-Info.plist";
