@@ -27,3 +27,7 @@ comma, 506702341@qq.com
 ## License
 
 CMAQRScanner is available under the MIT license. See the LICENSE file for more info.
+
+## 简介
+
+封装的一个二维码扫描组件，防微信的
