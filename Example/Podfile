@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'CMAQRScanner_Example' do
+  pod 'CMAQRScanner', :path => '../'
+
+  target 'CMAQRScanner_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
